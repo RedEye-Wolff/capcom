@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <title>Contacto - Capcom</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/capcom-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="contato, capcom, email, suporte, formulário">
+    <meta name="description" content="Entre em contacto com a equipe do site não oficial da Capcom.">
+</head>
+<body>
+    <div id="container">
+        <div id="header">
+            <img class="logo" src="images/capcom-logo.jpg" alt="Logo da Capcom">
+            <div id="links">
+                <a href="index.html">Home</a>
+                <a href="jogos.html">Jogos</a>
+            </div>
+        </div>
+
+        <div class="contenttext">
+            <h2>📨 Entre em Contacto</h2>
+            <p>Se você tiver dúvidas, sugestões ou quiser reportar erros no site, preencha o formulário abaixo:</p>
+
+            <form action="mailto:alguem@exemplo.com" method="post" enctype="text/plain" class="form">
+                <label for="name">Nome:</label><br>
+                    <input type="text" id="name" name="name" required><br><br>
+
+                <label for="mail">E-mail:</label><br>
+                    <input type="email" id="mail" name="mail" required><br><br>
+
+                <label for="comment">Comentário:</label><br>
+                    <textarea id="comment" name="comment" cols="50" rows="5" required style="width: 100%;"></textarea><br><br>
+
+                <button type="submit" class="botao">Enviar</button>
+            </form>
+            <br><br>
+        </div>
+    </div>
+
+    <div id="footer">
+        <p>Site não oficial feito para fins educacionais. <br>&copy; 2025</p>
+        <p><a href="https://www.capcom.com/" target="_blank">Acesse o site oficial da Capcom</a></p>
+        <p><a href="contacto.html">Contacto</a></p>
+    </div>
+</body>
+</html>
